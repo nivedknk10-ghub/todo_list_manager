@@ -25,3 +25,5 @@ This project was created to learn project structure, GitHub workflow, and basic 
 
 ```bash
 python main.py
+
+##project structure
