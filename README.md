@@ -17,6 +17,17 @@ This project was created to learn project structure, GitHub workflow, and basic 
 
 ---
 
+## Project structure
+todo_list_project/
+│
+├── main.py        # Program entry point
+├── task.py        # Task data model
+├── manager.py    # Task management logic
+├── storage.py    # File handling and persistence
+└── data.txt      # Stored task data
+
+---
+
 ## How to Run
 1. Make sure Python is installed on your system
 2. Clone this repository or download the files
@@ -26,4 +37,3 @@ This project was created to learn project structure, GitHub workflow, and basic 
 ```bash
 python main.py
 
-##project structure
