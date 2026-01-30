@@ -1,13 +1,16 @@
 #this it the main file
-from task import Task
+from manager import Taskmanager
 
 def main():
-    task1 = Task("Learn github workflow")
-    print(task1.title)
-    print(task1.completed)
+    manager = Taskmanager()
 
-    task1.mark_completed()
-    print(task1.completed)
+    manager.add_task("Learn OSINT")
+    manager.add_task("Buy Galaxy A36 5G")
+
+    manager.list_tasks()
+    manager.complete_task(1)
+    print("\nAfter completing the first task:\n")
+    manager.list_tasks()
 
 if __name__ == "__main__":
     main()
